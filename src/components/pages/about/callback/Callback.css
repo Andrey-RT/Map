@@ -1,0 +1,104 @@
+.callback_container{
+    display: flex;
+    justify-content: center;
+   width: 100%;
+}
+.callback_container_width{
+    width: 700px;
+}
+.callback_form{
+    display: flex;
+    column-gap: 30px;
+    width: 100%;
+}
+.callback_name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 189.5%;
+    /* identical to box height, or 57px */
+    text-align: center;
+    
+    color: #000000;
+    
+}
+.callback_text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 189.5%;
+    /* or 25px */
+    margin-bottom: 80px;
+    text-align: center;
+    
+    color: #777777;
+}
+.input {
+    max-width: 335px;
+    height: 60px;
+    width: 100%;
+    background-color: #05060f0a;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: .3rem;
+    font-size: .9rem;
+    font-weight: bold;
+    color: #05060f99;
+    transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+  }
+  
+  .input:hover, .input:focus, .input-group:hover .input {
+    outline: none;
+    border-color: #05060f;
+  }
+  
+  .input-group:hover .label, .input:focus {
+    color: #05060fc2;
+  }
+  #label_email{
+    max-width: 700px;
+    width: 100%;
+  }
+  #label_message{
+    max-width: 700px;
+    width: 100%;
+    height: 200px;
+    
+  }
+  .input-group{
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .callback_btn{
+    background: #ED553B;
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px 60px;
+    border: none;
+  
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 204.3%;
+    /* identical to box height, or 33px */
+    
+    
+    color: #FFFFFF;
+    
+  }
+  .callback_btn_container{
+    display: flex;
+    justify-content: end;
+    margin: 70px 0 150px 0;
+  }

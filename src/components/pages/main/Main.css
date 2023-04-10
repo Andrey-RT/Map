@@ -1,0 +1,138 @@
+.main_container{
+   
+   
+    display: flex;
+    justify-content: center;
+    
+}
+.firts_container_adp{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   padding: 0 100px;
+   max-width: 1920px;
+}
+.first_container_blok{
+    
+   width: 100%;
+}
+.main_name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 145%;
+    /* identical to box height, or 87px */
+    
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    
+    /* black */
+    
+    color: #1F1F1F;
+    
+}
+
+.main_text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    max-width: 650px;
+    margin: 10px 0 75px 0;
+    letter-spacing: 0.01em;
+    
+    color: #8F8F8F;
+    
+}
+
+.main_btn{
+    
+    width: 200px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+    border: 1px solid #ed553b;
+   border-radius: 7px;
+    column-gap: 13px;
+    transition: .3s ease;
+    
+}
+.main_btn button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 220%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: none;
+    color: #ED553B;
+    background-color: rgba(111, 58, 27, 0);
+    
+}
+.main_btn img{
+    padding-top: 15px;
+    object-fit: cover;
+}
+.main_btn:hover{
+    background-color: #fff;
+}
+
+.slider_btn a{
+    width: 13px;
+    height: 13px;
+    background: grey;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+}
+.main_slider{
+    width: 600px;
+}
+.main_slider_content{
+    display: flex;
+    justify-content: center;
+   overflow: hidden;
+   
+}
+.slider{
+    
+  width: 100%;
+   display: flex;
+   background: linear-gradient(78.83deg, rgba(111, 58, 27, 0.07) -2.75%, rgba(255, 255, 255, 0) 101.74%);
+   height: 660px;
+   padding: 80px 50px 60px 50px;
+   justify-content: center;
+   overflow: hidden;
+   
+   
+}
+.swiper{
+    height: 450px;
+}
+.swiper-pagination {
+    display: flex;
+    
+   
+    
+    
+}
+.swiper-pagination span{
+   background-color: 
+   #ED553B;
+}
+
+.main_background img{
+    object-fit: cover;
+    height: auto;
+    width: 600px;
+}
+
+

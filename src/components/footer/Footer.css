@@ -1,0 +1,122 @@
+.footer_container {
+    display: flex;
+    justify-content: center;
+    padding: 100px 100px;
+    max-width: 1920px;
+    width: 100%;
+}
+
+.footer_container_adp {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    column-gap: 120px;
+}
+
+.footer_name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    /* identical to box height */
+    margin-bottom: 20px;
+    
+    color: #000000;
+
+}
+.footer_input_container{
+    max-width: 400px;
+}
+.footer_input{
+   display: flex;
+    
+}
+.footer_input button {
+    background: #ED553B;
+    border-radius: 3px;
+    width: 135px;
+    height: 44px;
+    border: none;
+    color: #FFFFFF;
+   
+}
+
+.footer_input input {
+    color: #ed553b;
+    background: #FFFFFF;
+    box-shadow: rgba(172, 71, 71, 0.35) 0px 5px 15px;
+    border-radius: 3px;
+    padding-left: 5px;
+    border: none;
+    height: 45px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    
+}
+
+.footer_icon_container {
+    display: flex;
+    column-gap: 30px;
+    margin: 37px 0;
+}
+
+.footer_copiraty {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #7C7C7C;
+
+}
+
+.footer_link_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.footer_link_name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+    margin-bottom: 30px;
+    
+    /* black */
+    
+    color: #1F1F1F;
+    
+}
+.footer_link_block{
+    padding: 0 40px;
+    border-left: 1px solid #D6D6D6;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+   
+}
+.footer_link_link{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    /* identical to box height */
+    
+    
+    color: #808080;
+    
+}
