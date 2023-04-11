@@ -1,0 +1,12 @@
+.kontact_callback{
+    margin-top: 50px;
+}
+.kontact_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.kontact_container_adp{
+    width: 100%;
+    max-width: 1920px;
+}

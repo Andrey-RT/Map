@@ -41,7 +41,7 @@ const HeaderNav = ({setShow,size}) => {
                     <img src={logo} alt="" onClick={()=>setShow(true)}  />
                     </NavLink>
                     
-                    <input type="text" placeholder='Знайти...'/>
+                  
                     <div className={cl.header_btn_container}>
                         <div className={cl.header_btn} >
                             <img src={acount} alt="" />
@@ -61,7 +61,7 @@ const HeaderNav = ({setShow,size}) => {
                     <div className={cl.header_link_container } onClick={()=>setShow(true)}>
                     <NavLink className={setActive} to="/"  >Головна</NavLink>
                     <NavLink className={setActive} to="/about"  >Про нас</NavLink>
-                    <NavLink className={setActive} to="/kontacts"  >Контакти</NavLink>
+                    <NavLink className={setActive} to="/kontact"  >Контакти</NavLink>
                     <NavLink className={setActive} to="/blog"  >Блог</NavLink>
                     <NavLink className={setActive} to="/kategory"  >Каталог</NavLink>
                     </div>

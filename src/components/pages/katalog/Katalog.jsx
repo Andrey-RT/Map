@@ -23,7 +23,8 @@ const Katalog = ({handle}) => {
                 </div>
                 </div>
                     <div className="item_container">
-                        <KatalogItem handle={handle} />
+       
+                        <KatalogItem handle={handle}  />
                     </div>
                 </div>
                 

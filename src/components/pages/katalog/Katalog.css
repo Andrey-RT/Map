@@ -35,3 +35,74 @@
     align-items:center;
    justify-content: center;
 }
+input{
+    max-width: 400px;
+    
+    height: 35px;
+    background-color: #EFEFEF;
+    border-radius: 3px;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    padding-left: 15px;
+    letter-spacing: 0.12em;
+    text-transform: capitalize;
+   font-family: 'Montserrat';
+    color: #000000;
+}
+.image_box img{
+    width: 380px;
+}
+.input_container{
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+   max-width: 600px;
+   width: 100%;
+}
+.sort_container{
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+  
+}
+.input_sort_line{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    margin-bottom: 100px;
+    padding:  0 25px;
+    
+}
+.sort_name{
+    font-size: 16px;
+    text-align: center;
+    font-family: "Montserrat";
+}
+.sort_container button{
+    background-color: white;
+    border: 1px solid #BCBCBC;
+    border-radius: 3px;
+    padding: 5px 8px;
+    font-family: "Montserrat";
+    
+}
+.sort_container button:hover{
+    border: 1px solid #000000;
+}
+.active_sort{
+    color: red;
+    border:none;
+   
+}
+.no_results{
+    font-size: 25px;
+    
+    text-align: center;
+    margin: 150px 0 ;
+    width: 100%;
+}

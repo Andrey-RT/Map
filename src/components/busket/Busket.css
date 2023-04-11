@@ -39,7 +39,7 @@
     font-size: 14px;
     line-height: 21px;
     /* identical to box height */
-    
+    width: 120px;
     
     color: #000000;
     max-width: 150px;
@@ -148,6 +148,7 @@ color: #1F1F1F;
     display: flex;
     justify-content: space-between;
     padding: 25px 30px;
+    align-items: center;
 }
 .price_discount{
   

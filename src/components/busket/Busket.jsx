@@ -47,6 +47,8 @@ const Busket = ({ cart, setCart, handleChange }) => {
                             <p className="busket_line_name">Видалити</p>
                         </div>
                     </div>
+                    {cart.length > 0 ?(
+                        <div>
                         {cart.map((item) => (
                             <div>
                                 
@@ -71,9 +73,13 @@ const Busket = ({ cart, setCart, handleChange }) => {
                                 <hr className="busket_hr" />
                             </div>
 
-                        ))
+                        )
+                        )
 
-                        }
+                        }</div>):
+                        (
+                            <p className='no_results'>Корзина пуста ...</p>
+                          )}
                         
                     </article>
                     <Modals />

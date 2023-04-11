@@ -1,0 +1,47 @@
+.kontact_callback{
+    margin-top: 50px;
+}
+.kontact_container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.kontact_container_adp{
+    width: 100%;
+    max-width: 1920px;
+}
+.delivery_content{
+    margin: 150px 0 200px 0;
+    padding: 0 100px;
+}
+.delivery_info_name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 136%;
+    /* identical to box height, or 38px */
+    
+    
+    color: #000000;
+    
+}
+.delivery_info_text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    /* or 32px */
+    
+    
+    color: #585858;
+    
+}
+
+#delivery_info_name_id{
+    padding-top: 30px;
+}
+#delivery_info_text_id{
+    padding-bottom: 150px;
+}

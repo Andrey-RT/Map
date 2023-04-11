@@ -1,0 +1,40 @@
+.faq_item_container{
+    display: flex;
+    justify-content: space-between;
+
+    border-bottom: 2px solid #e0e0e0;
+   
+}
+.faq_name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    
+    /* black */
+    
+    color: #1F1F1F;
+    
+}
+.faq_container_name{
+    margin-bottom: 115px;
+}
+.faq_text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    margin: 30px 0 40px 0;
+   
+    color: #939393;
+    
+}
+.faq_item_container_block{
+   
+}
+.faq_content_container{
+    margin-top: 40px;
+}

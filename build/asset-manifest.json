@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.503f9b20.css",
+    "main.js": "/static/js/main.8d5c9949.js",
+    "static/media/third.png": "/static/media/third.2a6f09e73f946ffc7a26.png",
+    "static/media/sekond.png": "/static/media/sekond.32d90fb9c00a045c983e.png",
+    "static/media/main_background.png": "/static/media/main_background.a0e5d3a34c2d941f7486.png",
+    "static/media/first.png": "/static/media/first.d16a690b2b042bfca075.png",
+    "static/media/fourth.png": "/static/media/fourth.7a8a9e175ada00b8b68b.png",
+    "static/media/item.png": "/static/media/item.6c72f8411b4cfb8225e1.png",
+    "static/media/item3.png": "/static/media/item3.5c92cfab5f2f5216436e.png",
+    "static/media/item2.png": "/static/media/item2.81745f63d65de39339e4.png",
+    "static/media/Poppins-Medium.ttf": "/static/media/Poppins-Medium.c5eb70982e90502d0d01.ttf",
+    "static/media/Montserrat-Medium.ttf": "/static/media/Montserrat-Medium.a281f04d4c8926e7dea1.ttf",
+    "static/media/about_img.png": "/static/media/about_img.242bd655baca31da3aa6.png",
+    "static/media/removed.jpg": "/static/media/removed.4663c0b5d539277ba850.jpg",
+    "index.html": "/index.html",
+    "main.503f9b20.css.map": "/static/css/main.503f9b20.css.map",
+    "main.8d5c9949.js.map": "/static/js/main.8d5c9949.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.503f9b20.css",
+    "static/js/main.8d5c9949.js"
+  ]
+}
