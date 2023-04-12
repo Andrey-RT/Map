@@ -194,6 +194,12 @@ height: 100%;
     .swiper{
         height: 500px;
     }
+    .firts_container_adp{
+        padding: 0;
+    }
+    .slider{
+        padding: 80px 20px 60px 20px;
+    }
 }
 @media (max-width :450px){
     .swiper{

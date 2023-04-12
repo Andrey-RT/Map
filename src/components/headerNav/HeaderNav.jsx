@@ -49,7 +49,7 @@ const HeaderNav = ({ setShow, size }) => {
                         <img src={facebook} alt="" />
                         <img src={instagram} alt="" />
                         <img src={linkedin} alt="" />
-                        <img src={twitter} alt="" />
+                      
                         <img src={babi} alt="" />
                     </div>
                     <div>
