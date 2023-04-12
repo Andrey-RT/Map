@@ -37,7 +37,7 @@ const KatalogItem = ({ handle }) => {
       <div className="input_sort_line">
         <div className="input_container">
             <p className="sort_name">Пошук :</p>
-        <input
+        <input className='input_katalog'
           placeholder="Знайти..."
           type="text"
           onChange={(event) => setValue(event.target.value)}

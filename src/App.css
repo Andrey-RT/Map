@@ -21,3 +21,8 @@
    
     font-weight: 600;
  }
+ @media (max-width :1550px) {
+    .footer_app_container{
+        display: none;
+    }
+ }

@@ -54,9 +54,9 @@ show?<Routes>
 
 </Routes>:<Busket cart={cart} setCart={setCart} handleChange={handleChange}/>
       }
-       
+       <div className="footer_app_container">
        <Footer />
-
+       </div>
     </div>
   );
 }
