@@ -102,7 +102,7 @@ input{
     font-family: "Montserrat";
 }
 .sort_container button{
-    background-color: white;
+    background-color: #b4b4b4a8;
     border: 1px solid #BCBCBC;
     border-radius: 3px;
     padding: 5px 8px;
@@ -148,6 +148,7 @@ input{
     }
     .sort_btn_container{
         flex-direction: column;
+        row-gap: 10px;
     }
     .sort_container .sort_name{
         padding: 0;

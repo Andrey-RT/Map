@@ -71,14 +71,17 @@
 .counter_container{
     display: flex;
     column-gap: 10px;
-    border: 1px solid #808080;
+    
     padding: 0 5px;
     margin-left: 170px;
     width: 70px;
     justify-content: center;
+   
 }
 .counter{
-    background-color: white;
+
+  background-color:white;
+  
     border: none;
     font-size: 14px;
     cursor: pointer;
