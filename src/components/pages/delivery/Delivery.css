@@ -45,3 +45,10 @@
 #delivery_info_text_id{
     padding-bottom: 150px;
 }
+@media(max-width:600px){
+    .delivery_content{
+        padding: 0 25px;
+        margin: 60px 0 200px 0;
+    }
+
+}

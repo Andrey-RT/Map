@@ -91,3 +91,33 @@ color: #1F1F1F;
     color: #ED553B;
     
 }
+@media(max-width:600px){
+
+.blog_container{
+    padding: 150px 20px 75px 20px;
+}
+    .items_blok{
+
+       
+        height: auto;
+        width: 300px;
+    }
+   
+    .blog_container_name{
+        width: 100%;
+        
+    }
+    .blog_container_blok_name{
+        font-size: 24px;
+    }
+    .blog_container_name{
+        column-gap: 20px;
+    }
+    .blog_container_name_line{
+      
+    }
+    .blog_container{
+        padding: 60px 20px 75px 20px;
+    }
+
+}

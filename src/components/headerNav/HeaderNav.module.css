@@ -184,6 +184,11 @@ color: #FFFFFF;
  }
 
  @media (max-width :1350px){
+    .header_link_grey_container a:nth-child(1){
+        border-left:1px solid #E0E0E0 ;
+        
+         
+     }
    .header_nav{
     display: none;
    }

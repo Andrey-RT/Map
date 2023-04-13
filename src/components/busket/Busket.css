@@ -50,6 +50,7 @@
 .busket_main_container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     column-gap: 100px;
     margin-top: 150px;
 }
@@ -321,4 +322,68 @@ color: #1F1F1F;
   .modal_radio{
     display: flex;
     column-gap: 15px;
+  }
+  .busket_item_price_counter_container{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+  
+  
+  @media(max-width:900px){
+.busket_content{
+    display: none;
+    width: 100%;
+}
+.cart_box{
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.busket_item_price{
+    margin: 0;
+}
+.counter_container{
+    margin: 0;
+}
+
+.remove_line_container img{
+    margin: 0;
+}
+.busket_total_container{
+    margin-top: 75px;
+}
+.busket_hr{
+    display: none;
+}
+.modal_container{
+    flex-wrap: wrap;
+    padding: 0 20px;
+    justify-content: center;
+    column-gap: 50px;
+    
+}
+.modals{
+    height: 100%;
+    margin-top: 50px;
+}
+.busket_item_price_counter_container{
+    width: 100%;
+    justify-content: space-around;
+}
+  }
+  @media(max-width:600px){
+    .cart_box{
+        column-gap: 20px;
+        padding: 0 20px;
+    }
+    .busket_item_price_counter_container{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .modals{
+        width: 310px;
+    }
+   
   }

@@ -124,3 +124,34 @@ input{
     margin: 150px 0 ;
     width: 100%;
 }
+.sort_btn_container{
+    display: flex;
+    column-gap: 20px;
+}
+@media(max-width:600px){
+    .image_box img{
+        width: 300px;
+    }
+    .image_box{
+        text-align: center;
+    }
+    .sort_container {
+        flex-wrap: wrap;
+  
+    }
+    .sort_name{
+        padding-bottom: 20px;
+        align-items: start;
+    }
+    .input_container{
+        flex-wrap: wrap;
+    }
+    .sort_btn_container{
+        flex-direction: column;
+    }
+    .sort_container .sort_name{
+        padding: 0;
+    }
+    
+    
+}

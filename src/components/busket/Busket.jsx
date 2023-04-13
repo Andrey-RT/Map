@@ -57,11 +57,13 @@ const Busket = ({ cart, setCart, handleChange }) => {
                                         <img src={item.img} alt="" />
                                         <p className='busket_item_name'>{item.name}</p>
                                     </div>
+                                    <div className="busket_item_price_counter_container">
                                     <span className='busket_item_price' >{item.price} $</span>
                                     <div className='counter_container' >
                                         <button className='counter' onClick={() => handleChange(item, 1)} >+</button>
                                         <button className='counter'>{item.amount}</button>
                                         <button className='counter' onClick={() => handleChange(item, -1)} >-</button>
+                                    </div>
                                     </div>
                                     <div>
 

@@ -44,6 +44,13 @@ const KatalogItem = ({ handle }) => {
         /></div>
         <div className="sort_container">
           <p className="sort_name">Сортувати за :</p>
+          <div className="sort_btn_container">
+          <button 
+            className={sortingType === 'alphabetical' ? 'active_sort' : ''}
+            onClick={() => handleClickSort('alphabetical')}
+          >
+              За алфавітом
+          </button>
           <button
             className={sortingType === 'asc' ? 'active_sort' : ''}
             onClick={() => handleClickSort('asc')}
@@ -56,12 +63,8 @@ const KatalogItem = ({ handle }) => {
           >
             За ціною вниз
           </button>
-          <button
-            className={sortingType === 'alphabetical' ? 'active_sort' : ''}
-            onClick={() => handleClickSort('alphabetical')}
-          >
-              За алфавітом
-          </button>
+          </div>
+         
         </div>
       </div>
 

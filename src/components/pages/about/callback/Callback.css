@@ -102,3 +102,35 @@
     justify-content: end;
     margin: 70px 0 150px 0;
   }
+  @media(max-width:800px){
+    .callback_form{
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+    }
+    .input-group{
+      text-align: center;
+    }
+    #label_email,#label_message{
+     
+     text-align: center;
+      max-width: 335px;
+    }
+    .callback_btn_container{
+      justify-content: center;
+    }
+
+
+  }
+  @media(max-width:500px){
+    #label_email,#label_message{
+     
+     
+       max-width: 250px;
+       height: 40px;
+     }
+     .input{
+      height: 40px;
+      max-width: 250px;
+     }
+  }

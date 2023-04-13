@@ -85,7 +85,7 @@ const HeaderNav = ({ setShow, size }) => {
                                         <NavLink className={setActive} to="/blog"  >Блог</NavLink>
                                         <NavLink className={setActive} to="/kategory"  >Каталог</NavLink>
                                     </div>
-                                    <div className={cl.header_link_grey_container}>
+                                    <div className={cl.header_link_grey_container} onClick={updateMenu}>
                                         <NavLink className={setActive} to="/ofetra"  >Оферта</NavLink>
                                         <NavLink className={setActive} to="/delivery"  >Доставка</NavLink>
                                         <NavLink className={setActive} to="/faq"  >FAQ</NavLink>
