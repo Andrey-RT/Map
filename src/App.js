@@ -7,7 +7,7 @@ import About from "./components/pages/about/About";
 import Footer from "./components/footer/Footer";
 import Katalog from "./components/pages/katalog/Katalog";
 import Blog from "./components/pages/blog/Blog";
-import ItemKatalog from "./components/pages/katalog/Item";
+
 import Kontact from "./components/pages/kontact/Kontact";
 
 import Busket from "./components/busket/Busket";
@@ -48,7 +48,7 @@ function App() {
           <Route path="/" element={<Main />} />
           <Route path="/about" element={<About />} />
           <Route path="/kategory" element={<Katalog handle={handle} />} />
-          <Route path="/kategory/item" element={<ItemKatalog />} />
+
           <Route path="/blog" element={<Blog />} />
           <Route path="/kontact" element={<Kontact />} />
           <Route path="/delivery" element={<Delivery />} />

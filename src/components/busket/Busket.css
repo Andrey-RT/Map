@@ -363,6 +363,16 @@ border-radius: 2px;
     border: 1px solid rgb(0, 0, 0);
     scale: 105%;
 }
+.busket_main_adp_container{
+    max-width: 1920px;
+    width: 100%;
+}
+.busket_main_container_adp{
+    display: flex;
+    justify-content: center;
+   
+   flex-wrap: wrap;
+}
 
   
   

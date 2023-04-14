@@ -26,8 +26,8 @@ const Busket = ({ cart, setCart, handleChange,setShow }) => {
   
 
     return (
-        <div>
-            <div>
+        <div className='busket_main_container_adp'>
+            <div className='busket_main_adp_container'>
                 <div className="about_background">
                     <p className="about_first_name">Корзина</p>
                     <div className="about_first_line">

@@ -110,7 +110,7 @@ const HeaderNav = ({ setShow, size }) => {
                             </div>
 
                             <div className={cl.header_btn} id={cl.header_btn_id} onClick={() => setShow(false)}>
-                                <img  src={basket} alt="" /><span   className={setActive}>{size}</span>
+                                <img  src={basket} alt="" /><span  className={setActive}>{size}</span>
                                
                             </div>
 

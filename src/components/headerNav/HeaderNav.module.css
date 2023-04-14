@@ -118,6 +118,13 @@ color: #FFFFFF;
     align-items: center;
     
 }
+.header_btn span{
+    font-size: 10px;
+    position: absolute;
+    margin-left: 15px;
+    margin-top: -5px;
+    color: rgb(193, 0, 0);
+}
 .header_btn img{
     object-fit: contain;
 }
