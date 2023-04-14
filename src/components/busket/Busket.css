@@ -52,7 +52,7 @@
     justify-content: center;
     flex-wrap: wrap;
     column-gap: 100px;
-    margin-top: 150px;
+    margin-top: 70px;
 }
 .busket_item_price{
     font-family: 'Poppins';
@@ -333,12 +333,46 @@ color: #1F1F1F;
     flex-wrap: wrap;
     
 }
+.busket_return_btn{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.busket_return_btn button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    background: #ED553B;
+border-radius: 2px;
+    width: 135px;
+    height: 40px;
+    border: none;
+    /* white */
+    
+    color: #FFFFFF;
+    
+}
+.remove_line_container:hover{
+    scale: 120%;
+}
+.busket_return_btn button:hover{
+    background-color: #c24731;
+    border: 1px solid rgb(0, 0, 0);
+    scale: 105%;
+}
+
   
   
   @media(max-width:900px){
 .busket_content{
     display: none;
     width: 100%;
+}
+.sybtotal_container{
+    margin-bottom: 70px;
 }
 .cart_box{
     justify-content: space-between;
@@ -374,6 +408,9 @@ color: #1F1F1F;
 .busket_item_price_counter_container{
     width: 100%;
     justify-content: space-around;
+}
+.busket_return_btn{
+    padding: 50px 50px;
 }
   }
   @media(max-width:600px){

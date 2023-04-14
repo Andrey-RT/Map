@@ -15,6 +15,10 @@ import Delivery from "./components/pages/delivery/Delivery";
 import FAQ from "./components/pages/faq/FAQ";
 
 function App() {
+ 
+
+
+
   const [show, setShow] = useState(true);
   const [cart, setCart] = useState([]);
   const location = useLocation();
@@ -38,7 +42,7 @@ function App() {
 
   return (
     <div className="App">
-      <HeaderNav setShow={setShow} size={cart.length} />
+      <HeaderNav setShow={setShow} size={cart.length}  />
       {show ? (
         <Routes>
           <Route path="/" element={<Main />} />
@@ -51,7 +55,7 @@ function App() {
           <Route path="/faq" element={<FAQ />} />
         </Routes>
       ) : (
-        <Busket cart={cart} setCart={setCart} handleChange={handleChange} />
+        <Busket setShow={setShow}  cart={cart} setCart={setCart} handleChange={handleChange} />
       )}
       <div className="footer_app_container">
         <Footer />

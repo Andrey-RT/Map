@@ -189,6 +189,9 @@ color: #FFFFFF;
         
          
      }
+     .header_up_line{
+        padding-bottom: 0;
+     }
    .header_nav{
     display: none;
    }
@@ -264,11 +267,12 @@ color: #FFFFFF;
   .header_handler_container_adp{
     position: fixed;
     z-index: 2;
+    height: 80px;
     top: 0;
     background-color: white;
     padding: 0 25px;
   }
   .header_handler_container{
-    height: 100px;
+    height: 80px;
   }
  }

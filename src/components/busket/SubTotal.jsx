@@ -6,6 +6,9 @@ const SubTotal = ({price}) => {
     if( price > 499){
       discount = -50
     }
+     
+   
+
     return (
         <div className="busket_total_container">
                     <p className="busket_line_name">До сплати</p>

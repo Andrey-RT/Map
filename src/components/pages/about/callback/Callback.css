@@ -97,6 +97,13 @@
     color: #FFFFFF;
     
   }
+  .callback_btn:hover{
+    
+    scale: 105%;
+    transition: .3s ease;
+    border: 1px solid black;
+   
+  }
   .callback_btn_container{
     display: flex;
     justify-content: end;

@@ -4,7 +4,7 @@ import {  Pagination } from 'swiper';
 import 'swiper/css';
 import button_arrow from '../../img/main/icon_link/button_arrow.png'
 import main_background from '../../img/main/main_background.png'
-
+import { NavLink } from 'react-router-dom';
 import 'swiper/css/pagination';
 
 
@@ -30,12 +30,13 @@ const Slider = () => {
                         <p className='main_name'>Унікальне ТП</p>
                         <p className='main_text'>Різні види карт з натурального дерева та додатків для них щоб відповідати потребам наших клієнтів. Для того, щоб наш декор був найкращим, ми співпрацюємо з кращими виробниками сировини та фарб у галузі</p>
                     </div>
-                    <div className="main_btn">
-
+                    <NavLink to="/blog" className="main_btn">
+                    
 
                         <button> Читати ще</button>
                         <img src={button_arrow} alt="" />
-                    </div>
+                        
+                    </NavLink>
                    
                     <div className="main_slider">
                     
@@ -54,12 +55,13 @@ const Slider = () => {
               <p className='main_name'>Унікальне ТП</p>
               <p className='main_text'>Різні види карт з натурального дерева та додатків для них щоб відповідати потребам наших клієнтів. Для того, щоб наш декор був найкращим, ми співпрацюємо з кращими виробниками сировини та фарб у галузі</p>
           </div>
-          <div className="main_btn">
+          <NavLink to="/blog" className="main_btn">
+                    
 
-
-              <button> Читати ще</button>
-              <img src={button_arrow} alt="" />
-          </div>
+                        <button> Читати ще</button>
+                        <img src={button_arrow} alt="" />
+                        
+                    </NavLink>
          
           <div className="main_slider">
           
@@ -76,12 +78,13 @@ const Slider = () => {
               <p className='main_name'>Унікальне ТП</p>
               <p className='main_text'>Різні види карт з натурального дерева та додатків для них щоб відповідати потребам наших клієнтів. Для того, щоб наш декор був найкращим, ми співпрацюємо з кращими виробниками сировини та фарб у галузі</p>
           </div>
-          <div className="main_btn">
+          <NavLink to="/blog" className="main_btn">
+                    
 
-
-              <button> Читати ще</button>
-              <img src={button_arrow} alt="" />
-          </div>
+                        <button> Читати ще</button>
+                        <img src={button_arrow} alt="" />
+                        
+                    </NavLink>
          
           <div className="main_slider">
           
@@ -98,12 +101,13 @@ const Slider = () => {
               <p className='main_name'>Унікальне ТП</p>
               <p className='main_text'>Різні види карт з натурального дерева та додатків для них щоб відповідати потребам наших клієнтів. Для того, щоб наш декор був найкращим, ми співпрацюємо з кращими виробниками сировини та фарб у галузі</p>
           </div>
-          <div className="main_btn">
+          <NavLink to="/blog" className="main_btn">
+                    
 
-
-              <button> Читати ще</button>
-              <img src={button_arrow} alt="" />
-          </div>
+                    <button> Читати ще</button>
+                    <img src={button_arrow} alt="" />
+                    
+                </NavLink>
          
           <div className="main_slider">
           

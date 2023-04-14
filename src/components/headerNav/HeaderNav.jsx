@@ -20,9 +20,9 @@ const setActive = ({ isActive }) => isActive ? 'active_header_link' : '';
 
 
 
-
-
 const HeaderNav = ({ setShow, size }) => {
+    
+    
 
     const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
     const [menu_class, setMenuClass] = useState("menu hidden")
@@ -53,7 +53,7 @@ const HeaderNav = ({ setShow, size }) => {
                         <img src={babi} alt="" />
                     </div>
                     <div>
-                        <p className={cl.header_phone}>+380 (97) 17 033 21</p>
+                        <p className={cl.header_phone}  >+380 (97) 17 033 21</p>
                         <p className={cl.header_phone_text}>Натисніть, щоб скопіювати</p>
                     </div>
                 </div>
@@ -103,15 +103,17 @@ const HeaderNav = ({ setShow, size }) => {
 
 
 
-                        <div className={cl.header_btn_container} >
+                        <div className={cl.header_btn_container}  >
                             <div className={cl.header_btn} >
                                 <img src={acount} alt="" />
                             
                             </div>
+
                             <div className={cl.header_btn} id={cl.header_btn_id} onClick={() => setShow(false)}>
-                                <img  src={basket} alt="" /><span className={setActive}>{size}</span>
+                                <img  src={basket} alt="" /><span   className={setActive}>{size}</span>
                                
                             </div>
+
                             <div className={cl.header_btn}>
                                 <img src={heart} alt="" />
                                 
@@ -119,15 +121,15 @@ const HeaderNav = ({ setShow, size }) => {
                         </div>
                     </div>
                     <div className={cl.header_down_line_no_adp}>
-                        <div className={cl.header_down_line}>
-                            <div className={cl.header_link_container} onClick={() => setShow(true)}>
+                        <div className={cl.header_down_line} onClick={() => setShow(true)} >
+                            <div className={cl.header_link_container} >
                                 <NavLink className={setActive} to="/"  >Головна</NavLink>
                                 <NavLink className={setActive} to="/about"  >Про нас</NavLink>
                                 <NavLink className={setActive} to="/kontact"  >Контакти</NavLink>
                                 <NavLink className={setActive} to="/blog"  >Блог</NavLink>
                                 <NavLink className={setActive} to="/kategory"  >Каталог</NavLink>
                             </div>
-                            <div className={cl.header_link_grey_container}>
+                            <div className={cl.header_link_grey_container} >
                                 <NavLink className={setActive} to="/ofetra"  >Оферта</NavLink>
                                 <NavLink className={setActive} to="/delivery"  >Доставка</NavLink>
                                 <NavLink className={setActive} to="/faq"  >FAQ</NavLink>

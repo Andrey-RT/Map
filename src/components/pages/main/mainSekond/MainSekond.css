@@ -134,7 +134,10 @@
    
   
 }
-
+.third_item:hover{
+  scale: 110%;
+  
+}
 .third_item_name{
     position: absolute;
     bottom: 0;
@@ -185,7 +188,9 @@
 #third_item_name_color_id{
     color: #ED553B;
 }
+@media (max-width :1770px){
 
+}
 @media (max-width :1550px){
     #sekond_item_id{
         padding: 0;
