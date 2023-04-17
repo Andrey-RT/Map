@@ -25,7 +25,8 @@
 }
 .cart_img img{
     height: 87px;
-    width:83px
+    width:83px;
+    border-radius: 3px;
 }
 .cart_box{
     display: flex;
@@ -53,6 +54,7 @@
     flex-wrap: wrap;
     column-gap: 100px;
     margin-top: 70px;
+    width: 100%;
 }
 .busket_item_price{
     font-family: 'Poppins';
@@ -409,6 +411,7 @@ border-radius: 2px;
     padding: 0 20px;
     justify-content: center;
     column-gap: 50px;
+   
     
 }
 .modals{
@@ -431,9 +434,17 @@ border-radius: 2px;
     .busket_item_price_counter_container{
         flex-direction: column;
         row-gap: 10px;
+        
+
+    }
+    .no_results{
+        margin: 50px 0;
     }
     .modals{
         width: 310px;
+    }
+    .modal_container{
+        margin-top: 0;
     }
    
   }
