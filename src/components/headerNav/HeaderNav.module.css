@@ -127,6 +127,7 @@ color: #FFFFFF;
 }
 .header_btn img{
     object-fit: contain;
+    cursor: pointer;
 }
 .header_btn_name span{
     font-size: 12px;

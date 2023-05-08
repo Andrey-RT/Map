@@ -1,18 +1,21 @@
-import React from 'react';
+import {React ,useEffect} from 'react';
 import Callback from '../about/callback/Callback';
 import './Blog.css'
 
 import BlogItem from './BlogItem';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Blog = () => {
-   
+    useEffect(() => {
+        AOS.init();
+      }, [])
 
     return (
         <div className='about_container'>
             <div className="about_container_adp">
-                <div className="about_background">
+                <div data-aos="fade-right" className="about_background">
                     <p className="about_first_name">Наш блог</p>
                     <div className="about_first_line">
                         <p className="about_first_line_grey">Головна. </p>

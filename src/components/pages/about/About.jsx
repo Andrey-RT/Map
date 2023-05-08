@@ -1,4 +1,4 @@
-import React from 'react';
+import {React ,useEffect} from 'react';
 import './About.css'
 import map from '../../../img/main/about_img.png'
 import face from '../../../img/main/icon_kategory/face.png'
@@ -7,12 +7,17 @@ import twitter from '../../../img/main/icon_kategory/twitter.png'
 import maps from '../../../img/main/icon_kategory/map.png'
 import tel from '../../../img/main/icon_kategory/tel.png'
 import Callback from './callback/Callback';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
     return (
         <div className='about_container'>
             <div className="about_container_adp">
-                <div className="about_background">
+                <div data-aos="fade-right" className="about_background">
                     <p className="about_first_name">Про нашу команду</p>
                     <div className="about_first_line">
                         <p className="about_first_line_grey">Головна. </p>
@@ -28,7 +33,7 @@ const About = () => {
                     </div>
                     <img src={map} alt="" />
                 </div>
-                <div className="about_link_line">
+                <div data-aos="fade-top"  className="about_link_line">
                     <div className="about_link_line_blok">
                     <p className="about_link_line_name">Підписуйся на нас</p>
                     <div className="about_link_container">
@@ -47,8 +52,9 @@ const About = () => {
                         <p>м. Львів,<br /> вул. Шевченка, 31а</p>
                     </div>
                 </div>
+                <div data-aos="zoom-in" >
                 
-                <Callback />
+                <Callback /></div>
                 
             </div>
             

@@ -1,4 +1,4 @@
-import React from 'react';
+import {React ,useEffect} from 'react';
 import './MainSekond.css'
 import circle from '../../../../img/main/icon_kategory/circle.png'
 import search from '../../../../img/main/icon_kategory/search.png'
@@ -10,21 +10,27 @@ import f3 from '../../../../img/main/kategory/third.png'
 import f4 from '../../../../img/main/kategory/fourth.png'
 import f5 from '../../../../img/main/kategory/fifth.png'
 import f6 from '../../../../img/main/kategory/sixth.png'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const MainSekond = () => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
     return (
         <div className="sekond_container_adp">
         <div className='sekond_container'>
-            <div className="sekond_info">
+            <div data-aos="fade-left" className="sekond_info">
                 <div className='sekond_line_container' >
                     <div className="sekond_line"></div>
                     <p className="sekond_line_name">переваги</p>
                     </div>
             
-            <p className="sekond_name">Виготовлення виробів із фанери</p>
+            <p  className="sekond_name">Виготовлення виробів із фанери</p>
             <p className="sekond_text">Як тільки ви знайдете те, що шукаєте, ми гарантуємо швидке оформлення замовлення та доставку. Перевірте ваш вибір сьогодні!</p>
             </div>
-            <div className="sekond_item_container">
+            <div data-aos="fade-top" className="sekond_item_container">
                 <div className="sekond_item">
                     <img src={circle} alt="" />
                     <p className="item_name">Персоналізація</p>
@@ -47,28 +53,28 @@ const MainSekond = () => {
                 </div>
             </div>
             <div className="third_container">
-                <div className="third_item">
+                <div data-aos="fade-down"  className="third_item">
                 <p className="third_item_name">Одношарові мапи 	&#8594;</p>
                     <img src={f1} alt="" />
                    
                 </div>
-                <div className="third_item">
+                <div data-aos="fade-down" className="third_item">
                 <p className="third_item_name" id='third_item_name_id'>Ознайомтеся з нашими найкращими категоріями </p>
                     <img src={f5} alt="" />
                 </div>
-                <div className="third_item">
+                <div data-aos="fade-down" className="third_item">
                 <p className="third_item_name">Додатки до мап 	&#8594;</p>
                     <img src={f2} alt="" />
                 </div>
-                <div className="third_item">
+                <div data-aos="fade-down" className="third_item">
                 <p className="third_item_name">Багатошарові мапи	&#8594;</p>
                     <img src={f4} alt="" />
                 </div>
-                <div className="third_item">
+                <div data-aos="fade-down" className="third_item">
                 <p className="third_item_name">Перейти на сторінку	&#8594;</p>
                     <img src={f3} alt="" />
                 </div>
-                <div className="third_item">
+                <div data-aos="fade-down" className="third_item">
                 <p className="third_item_name">Додаткова категорія	&#8594;</p>
                     <img src={f6} alt="" />
                 </div>

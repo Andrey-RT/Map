@@ -1,10 +1,15 @@
-import React from 'react';
+import {React ,useEffect} from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Item = ({item,handle}) => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   const {name,data,img,price} = item;
   return (
     <div >
-      <div className='items_blok'>
+      <div data-aos="fade-down" className='items_blok'>
         <div className="image_box">
           <img src={img} alt="" />
         </div>

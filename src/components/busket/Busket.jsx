@@ -4,8 +4,13 @@ import arrow from '../../img/katalog/removed.jpg'
 import SubTotal from './SubTotal'
 import Modals from './Modals';
 import { NavLink } from 'react-router-dom';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Busket = ({ cart, setCart, handleChange,setShow }) => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
     const [price, setPrice] = useState(0)
 
     const handeleRemove = (id) => {
@@ -93,10 +98,12 @@ const Busket = ({ cart, setCart, handleChange,setShow }) => {
                            До каталогу
                         </button></NavLink> 
                     </div>
+                    
                     <Modals />
                 </div>
+                <div data-aos="fade-down" >
                 <SubTotal price={price}  />
-               
+                </div>
             </div>
         </div>
     );

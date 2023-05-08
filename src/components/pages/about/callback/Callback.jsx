@@ -1,10 +1,15 @@
-import React from 'react';
+import {React ,useEffect} from 'react';
 import './Callback.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Callback = () => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
     return (
-        <div className='callback_container'>
+        <div data-aos="zoom-in" className='callback_container'>
             <div className='callback_container_width'>
             <p className="callback_name">Зворотній дзвінок</p>
             <p className="callback_text">Залиште контакти і ми передвзонимо вам найближчим часом</p>

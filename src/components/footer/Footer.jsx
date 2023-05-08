@@ -1,14 +1,18 @@
-import React from 'react';
+import {React ,useEffect} from 'react';
 import './Footer.css'
 import face from '../../img/main/icon_kategory/face.png'
 import insta from '../../img/main/icon_kategory/insta.png'
 import twitter from '../../img/main/icon_kategory/twitter.png'
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 const Footer = () => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
     return (
         <div className='footer_container'>
             <div className="footer_container_adp">
-                <div className="footer_input_container">
+                <div data-aos="fade-right" className="footer_input_container">
                     <p className="footer_name">Magic Wood Map</p>
                     <div className="footer_input">
                         <input type="text" placeholder='Ваш email'/>
@@ -21,7 +25,7 @@ const Footer = () => {
                     </div>
                     <p className="footer_copiraty">©2022, Magic Wood Map</p>
                 </div>
-                <div className="footer_link_container">
+                <div  data-aos="fade-left"  className="footer_link_container">
                     <div className="footer_link_block">
                         <p className="footer_link_name">Меню</p>
                         <p className="footer_link_link">Головна</p>
